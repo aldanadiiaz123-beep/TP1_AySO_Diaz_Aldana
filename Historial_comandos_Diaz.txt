@@ -1,0 +1,357 @@
+whoami
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+pwd
+cd $HOME
+pwd
+man man
+man cd
+clear
+ls -l
+mkdir clase4
+ls -l
+cd clase4
+pwd
+ls -l
+echo hola 
+echo $HOME
+echo hola > archivo1.txt
+ls -l
+cat archivo1.txt 
+echo chau > archivo1.txt
+ls -l 
+cat archivo1.txt 
+echo buenas tardes >> archivo1.txt
+cat archivo1.txt 
+cat > archivo2.txt
+ls -l
+cat archivo2.txt
+cat << FIN > archivo3.txt
+linea4
+linea5
+FIN
+
+ls -l
+cat archivo3.txt
+cat archivo2.txt archivo3.txt > archivo4.txt
+ls -l 
+cat archivo4.txt
+mkdir documentos
+ls -l 
+grep linea3 archivo4.txt
+linea3 archivo4.txt
+grep linea3 archivo4.txt
+grep -i LINEA3 archivo4.txt
+grep -c linea3 archivo4.txt
+grep -n linea3 archivo4.txt
+grep -v linea3 archivo4.txt
+sudo apt install tree
+sudo snap install tree
+tree
+pwd
+mkdir practica
+ls -l
+cd practica/
+ls -l 
+touch practica1.txt
+ls -l
+cp practica1.txt practica2.txt
+ls -l
+rm practica1.txt
+ls -l 
+mv practica2.txt/home/vagrant/clase4/
+ls -l 
+tree
+cd ..
+ls -l
+rmdir practica
+ls -l 
+exit
+whoami
+pwd
+ls -l 
+cd clase4
+pwd
+ls -l
+mkdir facturas pedidos
+ls -l
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Diaz2/{mama/hijos{1..3},papa/{hijo{1..3},ahijado}}
+tree
+id
+who
+w
+last
+cat /etc/passwd
+grep -i vagrant /etc/passwd
+sudo cat /etc/shadow
+sudo grep -i vagrant /etc/shadow
+car /etc/group
+cat /etc/group
+sudo su
+groupadd Alumnos
+sudo groupadd Alumnos
+grep -i Alumnos /etc/group
+sudo useradd -m -s /bin/bash -c "usuario pepe" -G Alumnos pepe
+grep pepe /etc/passwd
+pwd
+ls -l
+ls -l /home
+sudo passwd pepe 
+su - pepe
+sudo usermod -aG sudo pepe
+cd --
+cd ..
+pwd
+ls -l
+pwd
+cd ..
+pwd
+ls -l 
+mkadir repogit
+cd repogit
+mkdir repogit
+so mkdir repogit
+cd..
+exit
+sudo su 
+exit
+mkdir clase4
+pwd
+tree
+cd clase4
+ls
+cd repogit
+cd /repogit
+mkdir repogit
+ls -l
+cd repogit
+rmdir repogit
+whoami
+git clone git@github.com:aldanadiiaz123-beep/TP1_AySO_Diaz_Aldana.git
+yes
+whoami
+pwd
+ls -l
+cd clase4
+pwd
+ls -l 
+cd ..
+pwd
+ls -l
+cd repogit
+ls -l
+pwd
+git clone git@github.com:aldanadiiaz123-beep/TP1_AySO_Diaz_Aldana.git
+ls -l
+tree
+cd ..
+whoami
+pwd
+vagrant halt
+exit
+ls -l 
+cd repogit
+ls -l
+pwd
+cd TP1_AySO_Diaz_Aldana
+pwd
+ls -l 
+cat /etc/os-release
+ls -l /home
+cd /home/pepe
+ls -l /home/pepe
+su - pepe
+pwd
+chown vagrant:vagrant /home/pepe/textopepe.txt
+sudo chown vagrant:vagrant /home/pepe/textopepe.txt
+ls -l 
+ls -l /home/pepe
+sudo ls -l /home/pepe
+pwd
+ls -l 
+mkdir clase5
+ls -l 
+cd clase5
+ls -l 
+touch practica1.txt
+touch practica2.txt
+ls -l 
+chmod 600 practica1.txt
+ls -l 
+chmod 444 practica2.txt
+ls -l 
+echo " nueva linea" >> practica2.txt 
+chmod 644 practica2.txt
+ls -l
+echo " nueva linea" >> practica2.txt 
+cat practica2,txt
+cat practica2.txt
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l 
+cd clase5
+ls -l 
+cd ..
+ls -l 
+chmod 775 -R clase5/
+ls -l 
+pwd
+mkdir clase6
+cd clase6
+ls -l
+echo pwd > script1
+ls -l
+cat script1
+bash script1
+echo whoami >> script1
+cat script1
+bash script1
+vim script2.sh
+cat script2.sh
+ls -l 
+chmod 764 script2.sh
+ls -l 
+./script2.sh
+vim script3.sh
+ls -l
+chmod 764 script3.sh
+ls -l 
+./script3.sh
+ls -l 
+cd dir 
+cd dir1 
+ls -l 
+cd .. 
+ls -l 
+exit
+ls -l 
+cd repogit
+ls -l 
+CD TP1_AySO_Diaz_Aldana/
+cd TP1_AySO_Diaz_Aldana/
+cat /etc/os-release
+man grep
+grep HOME_URL
+ls -l
+cd repogit/
+ls -l
+cd TP1_AySO_Diaz_Aldana/
+man grep
+grep HOME_URL/etc/os-release
+ls -l 
+cd repogit/
+ls -l 
+cd TP1_AySO_Diaz_Aldana/
+grep --help
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release>datos_url.txt
+whoami
+echo "Usuario=$(Vagrant)" > datos_usuario.txt 
+echo "Usuario=$(vagrant)" > datos_usuario.txt
+ls -l 
+vagrant halt
+exit 
+ls -l 
+cd repogit/
+ls -l 
+cd TP1_AySO_Diaz_Aldana/
+ls -l 
+pwd
+whoami
+rm -r datos_usuario.txt 
+ls -l 
+exit 
+ls - l
+ls -l 
+cd repogit/
+ls 
+cd TP1_AySO_Diaz_Aldana/
+echo "Usuario=$(whoami) > datos_usuario.txt
+exit 
+exit 
+ls -l
+cd repogit/
+ls -l 
+cd TP1_AySO_Diaz_Aldana/
+LS 
+ls 
+git add.
+git add . 
+git config --global user.email "aldanadiiaz123@gmail.com"
+git config --global user.name "vagrant"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status 
+git push 
+grep "model name" /proc/cpuinfo  | head -n1 >> datos_usuarios.txt
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF>> README.md
+Alumno: Aldana Diaz
+División: 211
+Turno: tarde 
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push 
+echo $HOME
+mkdir -p {materia1,materia2}/subdir{1..3}
+tree
+rm -r materia1 
+rm - r materia2
+mkdir -p $HOME/{materia1,materia2}/uni{1..3}
+tree
+rm -r materia2/
+pwd
+ls -l 
+mkdir -p $HOME/{materia1,materia2}/uni{1..3}
+tree
+ls $HOME/
+TREE
+ls -l $HOME
+ls -l materia1
+pwd
+rm -r materia1
+cd repogit
+vagrant halt 
+exit 
+pwd
+whoami 
+ls -l 
+rm -r materia1
+rm -r materia2
+ls -l
+cd repogit 
+ls -l 
+cd TP1_AySO_Diaz_Aldana/
+ls -l
+mkdir -p $HOME/materia1/{uni1,uni2,uni3} $HOME/materia2/{uni1,uni2,uni3} 
+cat <<EOF > script_dir.sh
+#!/bin/bash
+mkdir -p $HOME/materia1/{uni1,uni2,uni3} $HOME/materia2/{uni1,uni2,uni3} 
+EOF
+
+chmod 755 script_dir.sh
+./script_dish.sh
+.
+./script_dir.sh
+git add 
+git add . 
+git commit -m "ADD: Añadiendo script"
+git push 
+history -a $HOME/.bash_history
