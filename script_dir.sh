@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -p /home/vagrant/materia1/{uni1,uni2,uni3} /home/vagrant/materia2/{uni1,uni2,uni3} 
